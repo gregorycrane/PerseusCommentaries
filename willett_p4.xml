@@ -1,0 +1,912 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersVerse PUBLIC "-//Perseus P4//DTD Perseus Verse//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersVerse.dtd" >
+%PersVerse;
+]>
+<TEI.2>
+<teiHeader type="text" status="new">
+<fileDesc>
+<titleStmt>
+<title>Pythian 4</title>
+<author>Pindar</author>
+<editor role="translator">Steven J. Willett</editor>
+&responsibility;
+</titleStmt>
+<extent>299 lines</extent>
+&Perseus.publish;
+
+<sourceDesc>
+<bibl>
+<title>Pythian 4</title>
+<author>Pindar</author>
+<editor role="translator">Steven J. Willett</editor>
+<date>2001</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<correction method="silent" status="high">&Perseus.DE;</correction>
+</editorialDecl>
+<refsDecl doctype="TEI.2">
+<state unit="poem"/>
+<state unit="line"/>
+</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="greek">Greek</language>
+<language id="la">Latin</language>
+<language id="de">German</language>
+<language id="fr">French</language>
+<language id="it">Italian</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change><date></date>
+<respStmt><name></name><resp>markup</resp></respStmt>
+<item>
+$Log: willett_p4.xml,v $
+Revision 1.1  2009/12/07 18:50:33  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.4  2006/09/14 16:59:43  packel
+:call SearchCompleteStop()
+
+Revision 1.3  2006/02/10 21:10:36  packel
+places/dates now actually tagged
+
+Revision 1.2  2005/08/01 16:21:15  packel
+removed stray item tags
+
+Revision 1.1  2005/07/25 14:57:10  packel
+Converted to XML
+
+Revision 1.2  2003/07/01 22:17:26  yorkc
+Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+
+Revision 1.1  2001/04/23 16:09:27  amahoney
+new text, by courtesy of its translator
+
+</item>
+</change>
+</revisionDesc>
+
+</teiHeader>
+
+<text>
+<body>
+<milestone n="4" unit="poem"/>
+<div1 type="stanza" n="str. 1">
+<l n="tr">Today you must stand beside a man dear to me,		</l>
+<l n="tr">by the king of horsefamed <placeName key="tgn,7000639">Cyrene</placeName>,</l>
+<l n="tr">and joining with Archesilaus in his victory revels,
+<milestone ed="Heyne" n="5" rend="right" unit="line"/></l>
+<l n="tr">Muse, swell the breeze of songs			</l>
+<l n="tr">owed to Leto's Twins and to <placeName key="tgn,7010770">Pytho</placeName>,</l>
+<l n="tr">where once the priestess sitting in honor</l>
+<l n="tr">beside the golden eagles of Zeus,</l>
+<l n="tr">Apollo now in his land, proclaimed
+<milestone ed="Boeckh" n="5" unit="line"/></l>
+<l n="tr">by oracle that Battos would be founder
+<milestone ed="Heyne" n="10" rend="right" unit="line"/></l>
+<l n="tr">of fruitbearing <placeName key="tgn,1000172">Libya</placeName>, 					</l>
+<l n="tr">so that he'd finally leave the holy</l>
+<l n="tr">island and plant</l>
+<l n="tr">a city of fine chariots</l>
+<l n="tr">on a chalky breast of earth,
+
+</l></div1>
+<div1 type="stanza" n="ant. 1">
+<milestone ed="Heyne" n="15" rend="right" unit="line"/>
+<l n="tr">and redeem in the seventeenth generation		
+<milestone ed="Boeckh" n="10" unit="line"/></l>
+<l n="tr">the word of Medea</l>
+<l n="tr">which at <placeName key="tgn,7002507">Thera</placeName> once Ae&euml;tes' fierce daughter </l>
+<l n="tr">breathed from immortal lips,</l>
+<l n="tr">the Colchean queen.
+<milestone ed="Heyne" n="20" rend="right" unit="line"/></l>
+<l n="tr">Thus she spoke to the demigods 			</l>
+<l n="tr">who sailed with spearman Jason:</l>
+<l n="tr">"Hear me, you sons</l>
+<l n="tr">of bold-hearted men and gods:</l>
+<l n="tr">I say that from this wave-beaten land 
+<milestone ed="Heyne" n="25" rend="right" unit="line"/></l>
+<l n="tr">the daughter of Epaphus will one day  		</l>
+<l n="tr">	be planted with the root of other cities,
+<milestone ed="Boeckh" n="15" unit="line"/></l>
+<l n="tr">cities renowned among men,</l>
+<l n="tr">amid the foundations of Zeus Ammon.
+
+</l></div1>
+<div1 type="stanza" n="ep. 1">
+<l n="tr">"And, changing short-finned dolphins
+<milestone ed="Heyne" n="30" rend="right" unit="line"/></l>
+<l n="tr">for swift horses,					</l>
+<l n="tr">they shall ply reins rather than oars</l>
+<l n="tr">and drive chariots with stormfoot teams.</l>
+<l n="tr">That Omen shall make <placeName key="tgn,7002507">Thera</placeName>
+<milestone ed="Boeckh" n="20" unit="line"/></l>
+<l n="tr">metropolis of mighty cities, the Omen
+<milestone ed="Heyne" n="35" rend="right" unit="line"/></l>
+<l n="tr">which once amid the stream from lake Triton,	</l>
+<l n="tr">Euphemus, descending the prow,</l>
+<l n="tr">received from a god in human form</l>
+<l n="tr">who offered him</l>
+<l n="tr">a guest-gift of earth
+<milestone ed="Heyne" n="40" rend="right" unit="line"/></l>
+<l n="tr">&mdash;for him father Zeus, son of Kronos,		</l>
+<l n="tr">rang out a peal of auspicious thunder&mdash;:
+
+
+</l></div1>
+<div1 type="stanza" n="str. 2">
+<l n="tr">"at the time he met us hoisting against ship
+<milestone ed="Boeckh" n="25" unit="line"/></l>
+<l n="tr">the bronze-fluked anchor, </l>
+<l n="tr">swift <placeName key="tgn,1094163">Argo</placeName>'s bridle;
+<milestone ed="Heyne" n="45" rend="right" unit="line"/></l>
+<l n="tr">for twelve days before we'd been carrying		</l>
+<l n="tr">the seagoing timber from Ocean</l>
+<l n="tr">over desolate stretches of land,</l>
+<l n="tr">having drawn her up at my advice.</l>
+<l n="tr">Then in that instant all alone
+<milestone ed="Heyne" n="50" rend="right" unit="line"/></l>
+<l n="tr">the god approached us,				</l>
+<l n="tr">assuming the glad countenance</l>
+<l n="tr">of a solicitous man;</l>
+<l n="tr">and he began with friendly words,
+<milestone ed="Boeckh" n="30" unit="line"/></l>
+<l n="tr">those the charitable host first uses 
+<milestone ed="Heyne" n="55" rend="right" unit="line"/></l>
+<l n="tr">to offer newly-arrived strangers a meal.		
+
+</l></div1>
+<div1 type="stanza" n="ant. 2">
+<l n="tr">But the plea of our sweet homecoming</l>
+<l n="tr">checked us staying.  He said he was</l>
+<l n="tr">Eurypylus, son of the immortal</l>
+<l n="tr">Holder and Shaker of earth;
+<milestone ed="Heyne" n="60" rend="right" unit="line"/></l>
+<l n="tr">he knew our haste; swiftly				</l>
+<l n="tr">scooping up a handful of soil
+<milestone ed="Boeckh" n="35" unit="line"/></l>
+<l n="tr">with his right hand, he sought to give us</l>
+<l n="tr">a chance gift of hospitality;</l>
+<l n="tr">nor did he refuse it, the hero, but leapt to shore
+<milestone ed="Heyne" n="65" rend="right" unit="line"/></l>
+<l n="tr">and, pressing hand with hand,				</l>
+<l n="tr">accepted the divine clod.</l>
+<l n="tr">But I hear it was washed</l>
+<l n="tr">overboard one evening</l>
+<l n="tr">to wander seaward with the salt
+
+</l></div1>
+<div1 type="stanza" n="ep. 2">
+<milestone ed="Heyne" n="70" rend="right" unit="line"/>
+<milestone ed="Boeckh" n="40" unit="line"/>
+<l n="tr">waves, following the sinuous waters			</l>
+<l n="tr">of the deep.  Often indeed I urged</l>
+<l n="tr">the attendants, who ease our labor,</l>
+<l n="tr">to guard it; but they forgot,</l>
+<l n="tr">and now the imperishable seed
+<milestone ed="Heyne" n="75" rend="right" unit="line"/></l>
+<l n="tr">of spacious <placeName key="tgn,1000172">Libya</placeName>					</l>
+<l n="tr">is shed on this island before its time.</l>
+<l n="tr">For had he cast the seed down at home</l>
+<l n="tr">by Hade's earthfast mouth, </l>
+<l n="tr">after returning to sacred Tanaeus, Euphemus,
+<milestone ed="Boeckh" n="45" unit="line"/>
+<milestone ed="Heyne" n="80" rend="right" unit="line"/></l>
+<l n="tr">horse-ruling Poseidon's lordly son,			</l>
+<l n="tr">whom Europa, daughter of Tityos,</l>
+<l n="tr">once bore by the banks of Cephesus,
+
+
+</l></div1>
+<div1 type="stanza" n="str. 3">
+<l n="tr">his blood in the fourth generation after him</l>
+<l n="tr">would have seized that vast continent
+<milestone ed="Heyne" n="85" rend="right" unit="line"/></l>
+<l n="tr">together with the Danaans;				</l>
+<l n="tr">for then will they depart from great <placeName key="perseus,Sparta">Sparta</placeName>,</l>
+<l n="tr">from the gulf of <placeName key="perseus,Argos">Argos</placeName> and from <placeName key="perseus,Mycenae">Mycenae</placeName>.
+<milestone ed="Boeckh" n="50" unit="line"/></l>
+<l n="tr">Now, however, in the beds of alien women</l>
+<l n="tr">he shall discover a chosen race
+<milestone ed="Heyne" n="90" rend="right" unit="line"/></l>
+<l n="tr">who, by favor of the gods,				</l>
+<l n="tr">will come to this island</l>
+<l n="tr">and beget a man to be</l>
+<l n="tr">lord over plains</l>
+<l n="tr">cloaked in cloudshadow;
+<milestone ed="Heyne" n="95" rend="right" unit="line"/></l>
+<l n="tr">and one day Apollo, in his gold-filled house,		</l>
+<l n="tr">will admonish him by oracle,
+
+</l></div1>
+<div1 type="stanza" n="ant. 3">
+<milestone ed="Boeckh" n="55" unit="line"/>
+<l n="tr">when at length he enters the Pythian shrine,</l>
+<l n="tr">to lead a host of men in ships</l>
+<l n="tr">to the rich precinct of Zeus Ammon by the <placeName key="tgn,1127805">Nile</placeName>."
+<milestone ed="Heyne" n="100" rend="right" unit="line"/></l>
+<l n="tr">So spoke the ranks of Media's speech,		</l>
+<l n="tr">and they crouched stockstill, in silence,</l>
+<l n="tr">the godlike heroes </l>
+<l n="tr">listening to her shrewd counsel.</l>
+<l n="tr">O fortunate son of Polymnestus,
+<milestone ed="Heyne" n="105" rend="right" unit="line"/></l>
+<l n="tr">you it was whom, as this speech foretold,		
+<milestone ed="Boeckh" n="60" unit="line"/></l>
+<l n="tr">the oracle of the Delphic Bee</l>
+<l n="tr">exalted with her spontaneous shout,</l>
+<l n="tr">she who thrice crying "Hail"</l>
+<l n="tr">revealed you the predestined
+<milestone ed="Heyne" n="110" rend="right" unit="line"/></l>
+<l n="tr">king of <placeName key="tgn,7000639">Cyrene</placeName>,					
+
+</l></div1>
+<div1 type="stanza" n="ep. 3">
+<l n="tr">when you were asking what release might come</l>
+<l n="tr">from the gods for a stammering voice.</l>
+<l n="tr">After long time, even now, as at the peak</l>
+<l n="tr">of crimson-flowered spring, 
+<milestone ed="Boeckh" n="65" unit="line"/>
+<milestone ed="Heyne" n="115" rend="right" unit="line"/></l>
+<l n="tr">eighth in line from these children blossoms		</l>
+<l n="tr">Archesilaus: to whom Apollo and <placeName key="tgn,7010770">Pytho</placeName></l>
+<l n="tr">granted glory in the chariot race</l>
+<l n="tr">from the hands of the Amphictyons.</l>
+<l n="tr">I shall offer to the Muses
+<milestone ed="Heyne" n="120" rend="right" unit="line"/></l>
+<l n="tr">him and the golden fleece of the ram:			</l>
+<l n="tr">for when the Minyans sailed after it,</l>
+<l n="tr">heaven-sent honors </l>
+<l n="tr">were planted for them. 
+
+
+</l></div1>
+<div1 type="stanza" n="str. 4">
+<milestone ed="Boeckh" n="70" unit="line"/>
+<l n="tr">What then was the beginning of their voyage,
+<milestone ed="Heyne" n="125" rend="right" unit="line"/></l>
+<l n="tr">what danger shackled them with strong spikes of adamant?</l>
+<l n="tr">It was destined that Pelias die</l>
+<l n="tr">by the hands of Aeolus' noble sons</l>
+<l n="tr">or by their relentless designs.</l>
+<l n="tr">And a prophecy came to him
+<milestone ed="Heyne" n="130" rend="right" unit="line"/></l>
+<l n="tr">chilling his crafty heart,				</l>
+<l n="tr">spoken beside the navel-stone</l>
+<l n="tr">in the middle of treeteeming mother earth:
+<milestone ed="Boeckh" n="75" unit="line"/></l>
+<l n="tr">to mount close guard all round</l>
+<l n="tr">against the man with one sandal
+<milestone ed="Heyne" n="135" rend="right" unit="line"/></l>
+<l n="tr">when he descends from mountain lairs		</l>
+<l n="tr">into the clear-seen land </l>
+<l n="tr">of famous Iolkos,
+
+</l></div1>
+<div1 type="stanza" n="ant. 4">
+<l n="tr">whether stranger or citizen.  And so in time</l>
+<l n="tr">he came, a man with two spears, stupendous;
+<milestone ed="Heyne" n="140" rend="right" unit="line"/></l>
+<l n="tr">a double garment covered him,			
+<milestone ed="Boeckh" n="80" unit="line"/></l>
+<l n="tr">the Magnesians' native dress</l>
+<l n="tr">closely fitting his marvelous limbs,</l>
+<l n="tr">and round about it a leopard skin</l>
+<l n="tr">kept off the shivering rain;
+<milestone ed="Heyne" n="145" rend="right" unit="line"/></l>
+<l n="tr">the lustrous locks of his hair				</l>
+<l n="tr">had not been cut and lost,</l>
+<l n="tr">but cascaded down his entire back.</l>
+<l n="tr">Swiftly he went straight on,</l>
+<l n="tr">trying  the mettle of his unshaken will,
+<milestone ed="Heyne" n="150" rend="right" unit="line"/></l>
+<l n="tr">and in the middle of the square	 		
+<milestone ed="Boeckh" n="85" unit="line"/></l>
+<l n="tr">stood among the thronging crowd.
+
+</l></div1>
+<div1 type="stanza" n="ep. 4">
+<l n="tr">No one knew him; but awestruck</l>
+<l n="tr">as they were, someone spoke thus:</l>
+<l n="tr">"Surely this isn't Apollo,
+<milestone ed="Heyne" n="155" rend="right" unit="line"/></l>
+<l n="tr">nor is it bronze-charioted Ares,			</l>
+<l n="tr">lord of Aphrodite; and they say</l>
+<l n="tr">that on gleaming <placeName key="tgn,7012053">Naxos</placeName> died</l>
+<l n="tr">Iphimedeia's sons,</l>
+<l n="tr">Otos and you, daring lord Ephialtes.
+<milestone ed="Boeckh" n="90" unit="line"/>
+<milestone ed="Heyne" n="160" rend="right" unit="line"/></l>
+<l n="tr">Then too Tityus fell					</l>
+<l n="tr">hunted down by Artemis' swift arrow</l>
+<l n="tr">springing from her invincible quiver,</l>
+<l n="tr">so that a man might crave</l>
+<l n="tr">to caress possible loves."
+
+
+</l></div1>
+<div1 type="stanza" n="str. 5">
+<milestone ed="Heyne" n="165" rend="right" unit="line"/>
+<l n="tr">Such things they spoke in turn 			</l>
+<l n="tr">to one another; and on his polished
+<milestone ed="Boeckh" n="95" unit="line"/></l>
+<l n="tr">mule-cart came Pelias rushing in </l>
+<l n="tr">pell-mell: he was at once astonished</l>
+<l n="tr">as he glanced uneasily at the single sandal
+<milestone ed="Heyne" n="170" rend="right" unit="line"/></l>
+<l n="tr">conspicuous on its right foot.				</l>
+<l n="tr">But hiding the fear in his heart</l>
+<l n="tr">he accosted him:</l>
+<l n="tr">"What country, stranger, </l>
+<l n="tr">do you declare your fatherland?
+<milestone ed="Heyne" n="175" rend="right" unit="line"/></l>
+<l n="tr">And who among earth-born men			</l>
+<l n="tr">sent you forth from her venerable womb?</l>
+<l n="tr">Without defiling it through hateful lies,
+<milestone ed="Boeckh" n="100" unit="line"/></l>
+<l n="tr">tell me your race."
+
+</l></div1>
+<div1 type="stanza" n="ant. 4">
+<l n="tr">With gentle words, all unperturbed,				
+<milestone ed="Heyne" n="180" rend="right" unit="line"/></l>
+<l n="tr">he answered him thus: "I say				</l>
+<l n="tr">that I am he who bears the teaching of Chiron.</l>
+<l n="tr">For I come from his cave, from Chariclo and Philyra,</l>
+<l n="tr">where the Centaur's spotless daughters</l>
+<l n="tr">raised me.  After completing 20 years			
+<milestone ed="Heyne" n="185" rend="right" unit="line"/></l>
+<l n="tr">without a single crooked act 				</l>
+<l n="tr">or uttering one such word to them,
+<milestone ed="Boeckh" n="105" unit="line"/></l>
+<l n="tr">I have returned home to reclaim </l>
+<l n="tr">my father's ancient right of rule</l>
+<l n="tr">&mdash;now exercised improperly&mdash;				
+<milestone ed="Heyne" n="190" rend="right" unit="line"/></l>
+<l n="tr">which Zeus once granted				</l>
+<l n="tr">to Aeolus, leader of the people,</l>
+<l n="tr">and to his sons.
+
+</l></div1>
+<div1 type="stanza" n="ep. 5">
+<l n="tr">For I hear that lawless Pelias,</l>
+<l n="tr">following his cold, manipulative wits,
+<milestone ed="Boeckh" n="110" unit="line"/>
+<milestone ed="Heyne" n="195" rend="right" unit="line"/></l>
+<l n="tr">stripped it by force from my parents,			</l>
+<l n="tr">the legitimate sovereigns;</l>
+<l n="tr">when first I saw the light,</l>
+<l n="tr">they, fearing the violence</l>
+<l n="tr">of that insolent leader, darkened the house
+<milestone ed="Heyne" n="200" rend="right" unit="line"/></l>
+<l n="tr">in mourning mixed with women's wailing,		</l>
+<l n="tr">as if I'd died, and then secretly</l>
+<l n="tr">sent me away in purple swaddling-clothes,
+<milestone ed="Boeckh" n="115" unit="line"/></l>
+<l n="tr">entrusting night with my journey,</l>
+<l n="tr">and gave me to Chiron, 
+<milestone ed="Heyne" n="205" rend="right" unit="line"/></l>
+<l n="tr">Cronos' son, to raise.   				
+
+
+</l></div1>
+<div1 type="stanza" n="str. 6">
+<l n="tr">Now you know the highlights of my story;</l>
+<l n="tr">point out plainly, my fellow citizens, the house</l>
+<l n="tr">of my parents, masters of white horses;</l>
+<l n="tr">for I am one of you, the son of Aeson,
+<milestone ed="Heyne" n="210" rend="right" unit="line"/></l>
+<l n="tr">and come no stranger to an alien land.		</l>
+<l n="tr">The godlike beast, whenever he addressed me,</l>
+<l n="tr">called me Jason."
+<milestone ed="Boeckh" n="120" unit="line"/></l>
+<l n="tr">Thus he spoke, and as he entered</l>
+<l n="tr">his father's eyes recognized him;
+<milestone ed="Heyne" n="215" rend="right" unit="line"/></l>
+<l n="tr">and from his aged eyelids				</l>
+<l n="tr">burst the welling tears,</l>
+<l n="tr">for he rejoiced in his soul</l>
+<l n="tr">when he saw his child, the matchless,</l>
+<l n="tr">the fairest of men.
+
+</l></div1>
+<div1 type="stanza" n="ant. 6">
+<milestone ed="Heyne" n="220" rend="right" unit="line"/>
+<l n="tr">And both his brothers came to them			
+<milestone ed="Boeckh" n="125" unit="line"/></l>
+<l n="tr">at news of his arrival:</l>
+<l n="tr">from nearby Pheres, who left the fountain Hypereia,</l>
+<l n="tr">and from Messene Amythaon; </l>
+<l n="tr">and quickly came Admetus and Melampus,
+<milestone ed="Heyne" n="225" rend="right" unit="line"/></l>
+<l n="tr">well-wishers, to their cousin.				</l>
+<l n="tr">Amid the feasting			</l>
+<l n="tr">Jason welcomed them</l>
+<l n="tr">with honey-sweet words,</l>
+<l n="tr">providing them fit hospitality,
+<milestone ed="Heyne" n="230" rend="right" unit="line"/></l>
+<l n="tr">and stretched their reveling out to plenty,		
+<milestone ed="Boeckh" n="130" unit="line"/></l>
+<l n="tr">as he reaped through five full nights				</l>
+<l n="tr">and five days</l>
+<l n="tr">the holy flower of intense life.
+
+</l></div1>
+<div1 type="stanza" n="ep. 6">
+<l n="tr">But, on the sixth day, telling the whole
+<milestone ed="Heyne" n="235" rend="right" unit="line"/></l>
+<l n="tr">story soberly from the start,				</l>
+<l n="tr">he confided it to his kinsmen,</l>
+<l n="tr">and they assented.  Instantly he leaped</l>
+<l n="tr">from the couches along with them;         </l>
+<l n="tr">and then they went to the hall of Pelias;
+<milestone ed="Boeckh" n="135" unit="line"/>
+<milestone ed="Heyne" n="240" rend="right" unit="line"/></l>
+<l n="tr">bursting inside they took their stand;			</l>
+<l n="tr">when the king heard them, he himself,</l>
+<l n="tr">the son of fair-haired Tyro, came to greet them;   </l>
+<l n="tr">and Jason, distilling </l>
+<l n="tr">gentle discourse with a genial voice,
+<milestone ed="Heyne" n="245" rend="right" unit="line"/></l>
+<l n="tr">laid the basis of wise words:				</l>
+<l n="tr">"Son of Poseidon of the Rock,
+
+
+</l></div1>
+<div1 type="stanza" n="str. 7">
+<l n="tr">the minds of men are all too quick to praise
+<milestone ed="Boeckh" n="140" unit="line"/></l>
+<l n="tr">deceitful gain above the right,</l>
+<l n="tr">though they are moving to a bitter morning after; 
+<milestone ed="Heyne" n="250" rend="right" unit="line"/></l>
+<l n="tr">but you and I ought rule				</l>
+<l n="tr">our passions with justice</l>
+<l n="tr">and weave the web of future wealth.      </l>
+<l n="tr">I speak to one who knows. </l>
+<l n="tr">One dam was mother to Cretheus
+<milestone ed="Heyne" n="255" rend="right" unit="line"/></l>
+<l n="tr">and to daring-minded Salmoneus;			</l>
+<l n="tr">and we, sprung in the third generation from them,</l>
+<l n="tr">look on the golden strength of the sun.   
+<milestone ed="Boeckh" n="145" unit="line"/></l>
+<l n="tr">The Fates withdraw</l>
+<l n="tr">if any malice comes on kinsmen
+<milestone ed="Heyne" n="260" rend="right" unit="line"/></l>
+<l n="tr">to shroud their shame.					
+
+</l></div1>
+<div1 type="stanza" n="ant. 7">
+<l n="tr">It is unfitting for us two to sever</l>
+<l n="tr">with bronze-biting swords or spears</l>
+<l n="tr">the great birthright of our forefathers.</l>
+<l n="tr">For I give to you the flocks and tawny herds
+<milestone ed="Heyne" n="265" rend="right" unit="line"/></l>
+<l n="tr">of cattle and all the fields, 				</l>
+<l n="tr">which you extorted from my parents
+<milestone ed="Boeckh" n="150" unit="line"/></l>
+<l n="tr">and manage now to fatten up your wealth; </l>
+<l n="tr">it does not trouble me that these</l>
+<l n="tr">glut your house;
+<milestone ed="Heyne" n="270" rend="right" unit="line"/></l>
+<l n="tr">but that monarchial scepter and throne		</l>
+<l n="tr">on which, presiding once, the son of Creutheus </l>
+<l n="tr">guided his judgments straight</l>
+<l n="tr">to a race of horsemen;</l>
+<l n="tr">all these without our mutual strife
+
+</l></div1>
+<div1 type="stanza" n="ep. 7">
+<milestone ed="Heyne" n="275" rend="right" unit="line"/>
+<milestone ed="Boeckh" n="155" unit="line"/>
+<l n="tr">surrender to me, lest from them arise			</l>
+<l n="tr">some newer evil."   </l>
+<l n="tr">So he spoke, and Pelias too</l>
+<l n="tr">responded softly: "I shall be such as you wish,</l>
+<l n="tr">but already the sere span of life envelops me,
+<milestone ed="Heyne" n="280" rend="right" unit="line"/></l>
+<l n="tr">whereas your flower of youth				</l>
+<l n="tr">is just now swelling to its crest:</l>
+<l n="tr">you can appease the wrath of the dead. </l>
+<l n="tr">For Phrixus orders us,</l>
+<l n="tr">proceeding to Ae&euml;tes' palace halls,
+<milestone ed="Boeckh" n="160" unit="line"/>
+<milestone ed="Heyne" n="285" rend="right" unit="line"/></l>
+<l n="tr">to bring his soul back home				</l>
+<l n="tr">and carry off the deep-fleeced hide of the ram,</l>
+<l n="tr">on which he once escaped from the sea
+
+
+</l></div1>
+<div1 type="stanza" n="str. 8">
+<l n="tr">and from the godless weapons of his stepmother.</l>
+<l n="tr">A wondrous dream came speaking this to me.
+<milestone ed="Heyne" n="290" rend="right" unit="line"/></l>
+<l n="tr">I've asked the oracle at Castalia			</l>
+<l n="tr">if such a quest should be pursued: and it urges me</l>
+<l n="tr">to instantly dispatch an expedition by ship.
+<milestone ed="Boeckh" n="165" unit="line"/></l>
+<l n="tr">Accomplish, voluntarily, this task</l>
+<l n="tr">and I swear that I will yield you back
+<milestone ed="Heyne" n="295" rend="right" unit="line"/></l>
+<l n="tr">to wield sole power and to rule. 			</l>
+<l n="tr">And as a mighty pledge,</l>
+<l n="tr">let Zeus be witness,</l>
+<l n="tr">the father of both our families."</l>
+<l n="tr">Approving this arrangement, 
+<milestone ed="Heyne" n="300" rend="right" unit="line"/></l>
+<l n="tr">they parted company.  But Jason was already	</l>
+<l n="tr">in hot haste inciting the heralds
+
+</l></div1>
+<div1 type="stanza" n="ant. 8">
+<milestone ed="Boeckh" n="170" unit="line"/>
+<l n="tr">to announce everywhere</l>
+<l n="tr">that a voyage was under way.</l>
+<l n="tr">Quickly came the three sons, indomitable in war,
+<milestone ed="Heyne" n="305" rend="right" unit="line"/></l>
+<l n="tr">of Cronian Zeus					</l>
+<l n="tr">born to round-eyed Alcmene and Leda,</l>
+<l n="tr">and from <placeName key="perseus,Pylos">Pylos</placeName> and Taenarus' promontory</l>
+<l n="tr">the two top-knotted warriors </l>
+<l n="tr">sprung from the Earthshaker,
+<milestone ed="Heyne" n="310" rend="right" unit="line"/></l>
+<l n="tr">respecting their own might with awe;			
+<milestone ed="Boeckh" n="175" unit="line"/></l>
+<l n="tr">whose noble glory found fulfillment,</l>
+<l n="tr">that of Euphemus and yours, mighty Periclymenus.</l>
+<l n="tr">And from Apollo came</l>
+<l n="tr">the master lyrist, father of songs,
+<milestone ed="Heyne" n="315" rend="right" unit="line"/></l>
+<l n="tr">renowned Orpheus.					
+
+</l></div1>
+<div1 type="stanza" n="ep. 8">
+<l n="tr">Hermes goldenwand</l>
+<l n="tr">sent his twin sons</l>
+<l n="tr">to unceasing labor on the quest,</l>
+<l n="tr">Echion and Erytus, flushed with youth.
+<milestone ed="Heyne" n="320" rend="right" unit="line"/></l>
+<l n="tr">And quickly came those				
+<milestone ed="Boeckh" n="180" unit="line"/></l>
+<l n="tr">who dwelt at the base of Mount Pangaeus:</l>
+<l n="tr">for willingly with joyful heart   </l>
+<l n="tr">the King of Winds, their father Boreas,</l>
+<l n="tr">more swiftly urged on Zetes and <placeName key="tgn,1086140">Cala</placeName>=EFs,
+<milestone ed="Heyne" n="325" rend="right" unit="line"/></l>
+<l n="tr">mortal men whose backs were beating		</l>
+<l n="tr">with purple wings.</l>
+<l n="tr">Hera kindled in these demigods</l>
+<l n="tr">allsuasive sweet desire
+
+
+</l></div1>
+<div1 type="stanza" n="str. 9">
+<l n="tr">for the ship <placeName key="tgn,1094163">Argo</placeName>, that none be left behind
+<milestone ed="Boeckh" n="185" unit="line"/>
+<milestone ed="Heyne" n="330" rend="right" unit="line"/></l>
+<l n="tr">lingering by his mother's side				</l>
+<l n="tr">to coddle long a life devoid of danger,</l>
+<l n="tr">but to discover with his agemates,</l>
+<l n="tr">even at the price of death,</l>
+<l n="tr">the fairest way to win his own exploits.
+<milestone ed="Heyne" n="335" rend="right" unit="line"/></l>
+<l n="tr">And when the flower of sailors			</l>
+<l n="tr">came down to Iolkos, Jason</l>
+<l n="tr">counted and praised d them all.
+<milestone ed="Boeckh" n="190" unit="line"/></l>
+<l n="tr">And then the prophet Mopsus, </l>
+<l n="tr">divining by birds and sacred sortilege,
+<milestone ed="Heyne" n="340" rend="right" unit="line"/></l>
+<l n="tr">embarked the army readily.				</l>
+<l n="tr">When they had slung</l>
+<l n="tr">the anchors high above the beak,
+
+</l></div1>
+<div1 type="stanza" n="ant. 9">
+<l n="tr">taking a golden bowl in his hands   </l>
+<l n="tr">the captain, from the stern, called on
+<milestone ed="Heyne" n="345" rend="right" unit="line"/></l>
+<l n="tr">the father of the Uranidae, Zeus the lightning-speared,
+<milestone ed="Boeckh" n="195" unit="line"/></l>
+<l n="tr">for the wavesurge and the winds</l>
+<l n="tr">to be swift running, for the nights and sea</l>
+<l n="tr">paths and days to be serene,</l>
+<l n="tr">and for their homecoming to be fortunate;
+<milestone ed="Heyne" n="350" rend="right" unit="line"/></l>
+<l n="tr">and from the clouds Zeus answered him		</l>
+<l n="tr">with an auspicious clap of thunder;</l>
+<l n="tr">and bright bolts of lighting</l>
+<l n="tr">broke from the sky.</l>
+<l n="tr">The heroes caught their breath
+<milestone ed="Heyne" n="355" rend="right" unit="line"/></l>
+<l n="tr">trusting the signs of the god;				
+<milestone ed="Boeckh" n="200" unit="line"/></l>
+<l n="tr">the portent-seer summoned them
+
+</l></div1>
+<div1 type="stanza" n="ep. 9">
+<l n="tr">to fall to oars, announcing</l>
+<l n="tr">his sweet hopes;</l>
+<l n="tr">and the rowing ran out
+<milestone ed="Heyne" n="360" rend="right" unit="line"/></l>
+<l n="tr">from under their swift hands insatiably.		</l>
+<l n="tr">Conducted by the breezes of the South Wind</l>
+<l n="tr">they came to the mouth</l>
+<l n="tr">of the Inhospitable Sea,</l>
+<l n="tr">where they established a sacred precinct
+<milestone ed="Heyne" n="365" rend="right" unit="line"/></l>
+<l n="tr">for Poseidon of the sea:				
+<milestone ed="Boeckh" n="205" unit="line"/></l>
+<l n="tr">there was at hand a ruddy herd of Thracian cattle</l>
+<l n="tr">and, newly built of stones, a hollow altar.</l>
+<l n="tr">Rushing now into deep danger</l>
+<l n="tr">they implored the Lord of Ships
+
+
+</l></div1>
+<div1 type="stanza" n="str. 10">
+<milestone ed="Heyne" n="370" rend="right" unit="line"/>
+<l n="tr">to escape the irresistible movement			</l>
+<l n="tr">of the Clashing Rocks.  For both were alive,</l>
+<l n="tr">and rolled more rapidly 
+<milestone ed="Boeckh" n="210" unit="line"/></l>
+<l n="tr">than battle ranks of deep-roaring winds;</l>
+<l n="tr">but that voyage of demigods
+<milestone ed="Heyne" n="375" rend="right" unit="line"/></l>
+<l n="tr">finally brought their end.				</l>
+<l n="tr">To <placeName key="tgn,7012263">Phasis</placeName> then they came,</l>
+<l n="tr">where they set their might</l>
+<l n="tr">against the crushing Chochians</l>
+<l n="tr">in presence of Ae&euml;tes himself.
+<milestone ed="Heyne" n="380" rend="right" unit="line"/></l>
+<l n="tr">But the sovereign of swiftest darts,			</l>
+<l n="tr">Cyprogeneia, binding</l>
+<l n="tr">the dappled wryneck
+<milestone ed="Boeckh" n="215" unit="line"/></l>
+<l n="tr">four-spoked upon an indissoluble wheel
+
+</l></div1>
+<div1 type="stanza" n="ant. 10">
+<l n="tr">first brought the maddening bird
+<milestone ed="Heyne" n="385" rend="right" unit="line"/></l>
+<l n="tr">to human kind and thus taught Aeson's son		</l>
+<l n="tr">skill in invocations and incantations,</l>
+<l n="tr">that he might strip Medea of all reverence</l>
+<l n="tr">for her parents and that <placeName key="tgn,1000074">Hellas</placeName>, fiercely desired,</l>
+<l n="tr">might set her whirling, as she blazed in spirit,
+<milestone ed="Heyne" n="390" rend="right" unit="line"/></l>
+<l n="tr">with the scourge of Persuasion.			
+<milestone ed="Boeckh" n="220" unit="line"/></l>
+<l n="tr">And she at once revealed</l>
+<l n="tr">the outcome of her father's trials:</l>
+<l n="tr">preparing then the sap of roots with oil </l>
+<l n="tr">for remedy against remorseless pain,
+<milestone ed="Heyne" n="395" rend="right" unit="line"/></l>
+<l n="tr">she gave it him to anoint his limbs.			</l>
+<l n="tr">They thus agreed by mutual consent</l>
+<l n="tr">to join with one another in sweet union. 
+
+</l></div1>
+<div1 type="stanza" n="ep. 10">
+<l n="tr">But when Ae&euml;tes had planted in their midst</l>
+<l n="tr">the adamantine plow and the oxen,
+<milestone ed="Boeckh" n="225" unit="line"/>
+<milestone ed="Heyne" n="400" rend="right" unit="line"/></l>
+<l n="tr">who were panting from tawny jaws			</l>
+<l n="tr">a flame of searing fire</l>
+<l n="tr">and with their brazen hooves</l>
+<l n="tr">kept gouging up the earth in turn,</l>
+<l n="tr">alone he led and brought them to the yoke.
+<milestone ed="Heyne" n="405" rend="right" unit="line"/></l>
+<l n="tr">Straight were the furrows he traced			</l>
+<l n="tr">as he drove them up and down the ploughland,</l>
+<l n="tr">and cut the span of earth a fathom deep.
+<milestone ed="Boeckh" n="230" unit="line"/></l>
+<l n="tr">Then spoke thus: "Let the king, whoever rules the ship,</l>
+<l n="tr">complete this task for me
+<milestone ed="Heyne" n="410" rend="right" unit="line"/></l>
+<l n="tr">and carry off the imperishable bedding,		
+
+
+</l></div1>
+<div1 type="stanza" n="str. 11">
+<l n="tr">the fleece gleaming with golden fringe."</l>
+<l n="tr">At these words, Jason threw off his saffron robe,</l>
+<l n="tr">and trusting to god, he set to work:</l>
+<l n="tr">the fire never daunted him, thanks to the orders
+<milestone ed="Heyne" n="415" rend="right" unit="line"/></l>
+<l n="tr">of the gracious woman, all-powerful in remedies,	</l>
+<l n="tr">but drawing out the plough,</l>
+<l n="tr">he bound the necks of the oxen
+<milestone ed="Boeckh" n="235" unit="line"/></l>
+<l n="tr">in a harness of necessity,</l>
+<l n="tr">and thrusting into their sturdy sides
+<milestone ed="Heyne" n="420" rend="right" unit="line"/></l>
+<l n="tr">an unwearied  goad,					</l>
+<l n="tr">the burly man completed</l>
+<l n="tr">his allotted span of labor. Ae&euml;tes</l>
+<l n="tr">howled with inarticulate anguish</l>
+<l n="tr">marveling at his strength.      
+
+</l></div1>
+<div1 type="stanza" n="ant. 11">
+<milestone ed="Heyne" n="425" rend="right" unit="line"/>
+<l n="tr">Toward the mighty man his comrades		
+<milestone ed="Boeckh" n="240" unit="line"/></l>
+<l n="tr">were stretching out their hands and showering</l>
+<l n="tr">crowns of  leaves over him </l>
+<l n="tr">as they greeted him with kindly words. </l>
+<l n="tr">And straight away the wondrous son of Helios
+<milestone ed="Heyne" n="430" rend="right" unit="line"/></l>
+<l n="tr">told them where Phrixos' sacrificial knife		</l>
+<l n="tr">had spread the resplendent pelt,</l>
+<l n="tr">but hoped that he would fail at least</l>
+<l n="tr">to do that task.  For it lay</l>
+<l n="tr">within a thicket near
+<milestone ed="Heyne" n="435" rend="right" unit="line"/></l>
+<l n="tr">the ravenous jaws of a dragon				
+<milestone ed="Boeckh" n="245" unit="line"/></l>
+<l n="tr">which, in length and breadth, exceeded</l>
+<l n="tr">a fifty-oared ship </l>
+<l n="tr">wrought by iron-nailing blows.
+
+</l></div1>
+<div1 type="stanza" n="ep. 11">
+<l n="tr">Returning home by highway is too long;
+<milestone ed="Heyne" n="440" rend="right" unit="line"/></l>
+<l n="tr">for time is pressing me				</l>
+<l n="tr">and I know a short path:</l>
+<l n="tr">for many others I lead the way in skill.</l>
+<l n="tr">The glaring-eyed snake with speckled back,
+<milestone ed="Boeckh" n="250" unit="line"/></l>
+<l n="tr">O Archesilaus, he slew by cunning,
+<milestone ed="Heyne" n="445" rend="right" unit="line"/></l>
+<l n="tr">and stole with her own help Medea,			</l>
+<l n="tr">the Peliasassassin.</l>
+<l n="tr">They came amid the immensity of Ocean,</l>
+<l n="tr">and the <placeName key="tgn,7016791">Red Sea</placeName>,</l>
+<l n="tr">and the race of manslaughtering Lemnian women:
+<milestone ed="Heyne" n="450" rend="right" unit="line"/></l>
+<l n="tr">there also in contests of their limbs			</l>
+<l n="tr">they showed their strength for a prize cloak,
+
+
+</l></div1>
+<div1 type="stanza" n="str. 12">
+<l n="tr">and slept with them.  In foreign
+<milestone ed="Boeckh" n="255" unit="line"/></l>
+<l n="tr">furrows then the destined days or nights</l>
+<l n="tr">prosperously received the seed
+<milestone ed="Heyne" n="455" rend="right" unit="line"/></l>
+<l n="tr">of your family's splendor:				</l>
+<l n="tr">for there Euphemus' race was planted</l>
+<l n="tr">to tower up forever;</l>
+<l n="tr">and after sharing Spartan homes and ways</l>
+<l n="tr">they settled in time on the island
+<milestone ed="Heyne" n="460" rend="right" unit="line"/></l>
+<l n="tr">once called "Fairest;"					</l>
+<l n="tr">from there the son of Leto granted
+<milestone ed="Boeckh" n="260" unit="line"/></l>
+<l n="tr">you the plain of <placeName key="tgn,1000172">Libya</placeName> to enrich</l>
+<l n="tr">by favor of the gods</l>
+<l n="tr">and the holy city of golden-throned
+<milestone ed="Heyne" n="465" rend="right" unit="line"/></l>
+<l n="tr"><placeName key="tgn,7000639">Cyrene</placeName> to govern,					
+
+</l></div1>
+<div1 type="stanza" n="ant. 12">
+<l n="tr">you who contrived a craft of right counsel.</l>
+<l n="tr">Know now the wisdom of Oedipus:</l>
+<l n="tr">if someone with a sharp-bladed axe</l>
+<l n="tr">lopped off the branches of a mighty oak
+<milestone ed="Heyne" n="470" rend="right" unit="line"/></l>
+<l n="tr">and marred its marvelous form,			
+<milestone ed="Boeckh" n="265" unit="line"/></l>
+<l n="tr">though desolate of fruit,</l>
+<l n="tr">it still gives testimony of itself,</l>
+<l n="tr">if ever it comes at last</l>
+<l n="tr">to feed the winter fire,
+<milestone ed="Heyne" n="475" rend="right" unit="line"/></l>
+<l n="tr">or if, laid as lintel					</l>
+<l n="tr">for a master's upright columns,</l>
+<l n="tr">it carries on despairing toil</l>
+<l n="tr">within an alien city wall,</l>
+<l n="tr">having left its own place empty.
+
+</l></div1>
+<div1 type="stanza" n="ep. 12">
+<milestone ed="Heyne" n="480" rend="right" unit="line"/>
+<milestone ed="Boeckh" n="270" unit="line"/>
+<l n="tr">But you're the most appropriate physician		</l>
+<l n="tr">and Paean honors you with healing light.</l>
+<l n="tr">One must apply a soothing hand</l>
+<l n="tr">to tend an ulcerous wound.</l>
+<l n="tr">It's easy for the almost impotent
+<milestone ed="Heyne" n="485" rend="right" unit="line"/></l>
+<l n="tr">to shake a city; 					</l>
+<l n="tr">to set it back in place again</l>
+<l n="tr">is grinding conflict,</l>
+<l n="tr">unless a god will suddenly</l>
+<l n="tr">become a steersman for its leaders. 
+<milestone ed="Boeckh" n="275" unit="line"/>
+<milestone ed="Heyne" n="490" rend="right" unit="line"/></l>
+<l n="tr">For you is woven out this web of favors.		</l>
+<l n="tr">Take heart to lavish full devotion</l>
+<l n="tr">on divinely blessed <placeName key="tgn,7000639">Cyrene</placeName>.
+
+
+</l></div1>
+<div1 type="stanza" n="str. 13">
+<l n="tr">Among the sayings of Homer this one</l>
+<l n="tr">lay to mind and heed:
+<milestone ed="Heyne" n="495" rend="right" unit="line"/></l>
+<l n="tr">a noble messenger, he said,				</l>
+<l n="tr">bestows the greatest honor to each office;</l>
+<l n="tr">even the Muse grows strong by true report.
+<milestone ed="Boeckh" n="280" unit="line"/></l>
+<l n="tr"><placeName key="tgn,7000639">Cyrene</placeName> and the most illustrious house of Battus</l>
+<l n="tr">have come to know the upright mind
+<milestone ed="Heyne" n="500" rend="right" unit="line"/></l>
+<l n="tr">of Damophilus.  For that man&mdash;			</l>
+<l n="tr">a youth among boys,</l>
+<l n="tr">but in counsels an elder</l>
+<l n="tr">who's gained a hundred years of life&mdash;</l>
+<l n="tr">bereaves an evil tongue
+<milestone ed="Heyne" n="505" rend="right" unit="line"/></l>
+<l n="tr">of lucid voice,						</l>
+<l n="tr">but has learned to hate the violent,
+
+</l></div1>
+<div1 type="stanza" n="ant. 13">
+<milestone ed="Boeckh" n="285" unit="line"/>
+<l n="tr">not clashing with the noble</l>
+<l n="tr">or drawing out the end of any action.</l>
+<l n="tr">Brief is the span, for men,
+<milestone ed="Heyne" n="510" rend="right" unit="line"/></l>
+<l n="tr">of opportunity.  He knows it well;			</l>
+<l n="tr">like an attendant, not a drudge, he follows it.</l>
+<l n="tr">They say this is the sharpest pain:</l>
+<l n="tr">to recognize the good</l>
+<l n="tr">but stand outside it by compulsion.
+<milestone ed="Boeckh" n="290" unit="line"/>
+<milestone ed="Heyne" n="515" rend="right" unit="line"/></l>
+<l n="tr">Truly, that man is even now,				</l>
+<l n="tr">like Atlas, wresting with the sky</l>
+<l n="tr">apart from fatherland apart from property.</l>
+<l n="tr">But Zeus eternal freed the Titans; </l>
+<l n="tr">in passing time,
+<milestone ed="Heyne" n="520" rend="right" unit="line"/></l>
+<l n="tr">as winds subside, comes change			
+
+</l></div1>
+<div1 type="stanza" n="ep. 13">
+<l n="tr">of sails.  But he prays,</l>
+<l n="tr">when he's exhausted this accursed affliction,</l>
+<l n="tr">to see his home one day,</l>
+<l n="tr">and by the fountain of Apollo,
+<milestone ed="Heyne" n="525" rend="right" unit="line"/></l>
+<l n="tr">joining the symposia,					
+<milestone ed="Boeckh" n="295" unit="line"/></l>
+<l n="tr">to throw his heart into the joys of youth, </l>
+<l n="tr">and clasping the richly ornate lyre</l>
+<l n="tr">among his songwise citizens, to grasp peace,</l>
+<l n="tr">working harm to none nor suffering it
+<milestone ed="Heyne" n="530" rend="right" unit="line"/></l>
+<l n="tr">from his countrymen;					</l>
+<l n="tr">and he could tell, Archesilaus,</l>
+<l n="tr">what fountain of ambrosial verse he found</l>
+<l n="tr">when recently a guest at <placeName key="perseus,Thebes">Thebes</placeName>.</l></div1>
+</body>
+</text>
+</TEI.2>
